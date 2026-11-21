@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">Ce téléphone n\'a pas d\'émetteur infrarouge : les boutons ne feront rien.</string>
+    <string name="power">Allumer ou éteindre</string>
+    <string name="mute">Couper le son</string>
+    <string name="volume_up">Augmenter le volume</string>
+    <string name="volume_down">Baisser le volume</string>
+    <string name="channel_up">Chaîne suivante</string>
+    <string name="channel_down">Chaîne précédente</string>
+    <string name="up">Haut</string>
+    <string name="down">Bas</string>
+    <string name="left">Gauche</string>
+    <string name="right">Droite</string>
+    <string name="back">Retour</string>
+    <string name="menu">Menu</string>
+    <string name="exit">Quitter</string>
+    <string name="red_button">Bouton rouge</string>
+    <string name="green_button">Bouton vert</string>
+    <string name="yellow_button">Bouton jaune</string>
+    <string name="blue_button">Bouton bleu</string>
+    <string name="numbers">Chiffres</string>
+    <string name="more">Plus</string>
+    <string name="rewind">Retour rapide</string>
+    <string name="play">Lecture</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Arrêt</string>
+    <string name="fast_forward">Avance rapide</string>
+</resources>

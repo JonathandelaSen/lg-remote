@@ -20,8 +20,8 @@ android {
         applicationId = "io.github.jonathandelasen.remoto"
         minSdk = 26
         targetSdk = 36
-        versionCode = 1
-        versionName = "1.0"
+        versionCode = 2
+        versionName = "1.1"
     }
 
     signingConfigs {
@@ -52,6 +52,9 @@ android {
     androidResources {
         // Permite elegir el idioma de la app en los ajustes de Android 13+.
         generateLocaleConfig = true
+        // Solo los idiomas traducidos (las librerías traen ~80 y saldrían en ese selector).
+        // Debe coincidir con las carpetas values-xx: lo comprueba StringsTest.
+        localeFilters += listOf("en", "es", "fr", "de", "pt", "it", "ru", "ja", "zh-rCN", "hi", "ar", "in")
     }
 
     buildFeatures {

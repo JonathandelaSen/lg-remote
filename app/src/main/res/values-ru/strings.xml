@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">В этом телефоне нет ИК-передатчика, поэтому кнопки не будут работать.</string>
+    <string name="power">Включить или выключить</string>
+    <string name="mute">Без звука</string>
+    <string name="volume_up">Громче</string>
+    <string name="volume_down">Тише</string>
+    <string name="channel_up">Следующий канал</string>
+    <string name="channel_down">Предыдущий канал</string>
+    <string name="up">Вверх</string>
+    <string name="down">Вниз</string>
+    <string name="left">Влево</string>
+    <string name="right">Вправо</string>
+    <string name="back">Назад</string>
+    <string name="menu">Меню</string>
+    <string name="exit">Выход</string>
+    <string name="red_button">Красная кнопка</string>
+    <string name="green_button">Зелёная кнопка</string>
+    <string name="yellow_button">Жёлтая кнопка</string>
+    <string name="blue_button">Синяя кнопка</string>
+    <string name="numbers">Цифры</string>
+    <string name="more">Ещё</string>
+    <string name="rewind">Перемотка назад</string>
+    <string name="play">Воспроизвести</string>
+    <string name="pause">Пауза</string>
+    <string name="stop">Стоп</string>
+    <string name="fast_forward">Перемотка вперёд</string>
+</resources>

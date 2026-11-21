@@ -29,7 +29,9 @@ enviar nada a ningún sitio.
 - **Todo el mando:** encendido, volumen, canales, cruceta, números, colores, menús y reproducción.
 - **Mantén pulsado** volumen, canal o flechas y se repite, como en el mando de verdad.
 - **Vibra al pulsar**, tema oscuro y pensado para usarse con una mano.
-- **En español e inglés** (se elige en los ajustes de idioma de cada app, Android 13+).
+- **En 12 idiomas:** español, inglés, chino, hindi, árabe, portugués, francés, ruso, alemán, japonés,
+  indonesio e italiano. Sale en el idioma del móvil, y en Android 13+ se puede cambiar solo para esta app.
+  ¿Una traducción mejorable? [Abre un issue](https://github.com/JonathandelaSen/remoto/issues/new).
 
 ## Compatibilidad
 
@@ -166,7 +168,8 @@ tiene que seguir siendo libre y con su código abierto.
   since the S7, no Pixel).
 - **Install:** download [**Remoto.apk**](https://github.com/JonathandelaSen/remoto/releases/latest/download/Remoto.apk),
   open it and, if Play Protect warns you, tap *Install anyway*.
-- **Languages:** English and Spanish.
+- **12 languages:** English, Spanish, Chinese, Hindi, Arabic, Portuguese, French, Russian, German,
+  Japanese, Indonesian and Italian. Spotted a clumsy translation? Please open an issue.
 - Tried it on another LG model? [Open an issue](https://github.com/JonathandelaSen/remoto/issues/new) with the model and what works.
 
 <p align="center">

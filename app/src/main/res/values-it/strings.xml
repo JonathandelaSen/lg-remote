@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">Questo telefono non ha un emettitore a infrarossi: i tasti non faranno nulla.</string>
+    <string name="power">Accendi o spegni</string>
+    <string name="mute">Disattiva audio</string>
+    <string name="volume_up">Alza il volume</string>
+    <string name="volume_down">Abbassa il volume</string>
+    <string name="channel_up">Canale successivo</string>
+    <string name="channel_down">Canale precedente</string>
+    <string name="up">Su</string>
+    <string name="down">Giù</string>
+    <string name="left">Sinistra</string>
+    <string name="right">Destra</string>
+    <string name="back">Indietro</string>
+    <string name="menu">Menu</string>
+    <string name="exit">Esci</string>
+    <string name="red_button">Tasto rosso</string>
+    <string name="green_button">Tasto verde</string>
+    <string name="yellow_button">Tasto giallo</string>
+    <string name="blue_button">Tasto blu</string>
+    <string name="numbers">Numeri</string>
+    <string name="more">Altro</string>
+    <string name="rewind">Riavvolgi</string>
+    <string name="play">Riproduci</string>
+    <string name="pause">Pausa</string>
+    <string name="stop">Stop</string>
+    <string name="fast_forward">Avanti veloce</string>
+</resources>

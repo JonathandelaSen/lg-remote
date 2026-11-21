@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">Dieses Handy hat keinen Infrarotsender, die Tasten funktionieren daher nicht.</string>
+    <string name="power">Ein- oder ausschalten</string>
+    <string name="mute">Stumm</string>
+    <string name="volume_up">Lauter</string>
+    <string name="volume_down">Leiser</string>
+    <string name="channel_up">Nächster Sender</string>
+    <string name="channel_down">Vorheriger Sender</string>
+    <string name="up">Hoch</string>
+    <string name="down">Runter</string>
+    <string name="left">Links</string>
+    <string name="right">Rechts</string>
+    <string name="back">Zurück</string>
+    <string name="menu">Menü</string>
+    <string name="exit">Beenden</string>
+    <string name="red_button">Rote Taste</string>
+    <string name="green_button">Grüne Taste</string>
+    <string name="yellow_button">Gelbe Taste</string>
+    <string name="blue_button">Blaue Taste</string>
+    <string name="numbers">Zahlen</string>
+    <string name="more">Mehr</string>
+    <string name="rewind">Zurückspulen</string>
+    <string name="play">Wiedergabe</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stopp</string>
+    <string name="fast_forward">Vorspulen</string>
+</resources>

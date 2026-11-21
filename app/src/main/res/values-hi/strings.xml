@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">इस फ़ोन में इन्फ्रारेड एमिटर नहीं है, इसलिए बटन काम नहीं करेंगे।</string>
+    <string name="power">चालू या बंद करें</string>
+    <string name="mute">म्यूट</string>
+    <string name="volume_up">आवाज़ बढ़ाएँ</string>
+    <string name="volume_down">आवाज़ घटाएँ</string>
+    <string name="channel_up">अगला चैनल</string>
+    <string name="channel_down">पिछला चैनल</string>
+    <string name="up">ऊपर</string>
+    <string name="down">नीचे</string>
+    <string name="left">बाएँ</string>
+    <string name="right">दाएँ</string>
+    <string name="back">वापस</string>
+    <string name="menu">मेनू</string>
+    <string name="exit">निकास</string>
+    <string name="red_button">लाल बटन</string>
+    <string name="green_button">हरा बटन</string>
+    <string name="yellow_button">पीला बटन</string>
+    <string name="blue_button">नीला बटन</string>
+    <string name="numbers">अंक</string>
+    <string name="more">अधिक</string>
+    <string name="rewind">रिवाइंड</string>
+    <string name="play">चलाएँ</string>
+    <string name="pause">रोकें</string>
+    <string name="stop">बंद करें</string>
+    <string name="fast_forward">फ़ास्ट फ़ॉरवर्ड</string>
+</resources>

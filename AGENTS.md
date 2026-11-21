@@ -3,8 +3,12 @@
 - Siempre en `main`, sin ramas.
 - Todo cambio de código lleva sus tests en el mismo commit (`./gradlew testDebugUnitTest`).
 - Documentación en español (el README tiene además un resumen en inglés).
-- Textos de la app: inglés en `values/strings.xml` y español en `values-es/strings.xml`.
-  `StringsTest` falla si falta una traducción.
+- Textos de la app: inglés en `values/strings.xml` y cada idioma en `values-xx/strings.xml` (12 en total).
+  `StringsTest` falla si falta una traducción, si sobra una clave o si hay un apóstrofo sin escapar.
+  Los nombres de las teclas del mando (INPUT, Q.MENU, LIST…) no se traducen: son los del mando físico.
+- Para añadir un idioma: crear `values-xx/strings.xml`, añadirlo a `localeFilters` en
+  `app/build.gradle.kts`, a la lista de `StringsTest` y a la de idiomas del README.
+- El mando se dibuja siempre de izquierda a derecha, también en árabe (ver `RemoteScreen`).
 - Antes de dar algo por bueno: compilar el release y revisarlo con capturas a 360 dp de ancho
   (`adb shell wm size 1080x2400 && adb shell wm density 480`, y luego `wm size reset` / `wm density reset`).
 - Un código IR nuevo se añade a `LgKey`, a la tabla de botones del README y, si hay valor publicado,

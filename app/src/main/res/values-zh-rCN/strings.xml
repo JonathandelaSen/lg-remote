@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">此手机没有红外发射器，按钮将不起作用。</string>
+    <string name="power">开关机</string>
+    <string name="mute">静音</string>
+    <string name="volume_up">调高音量</string>
+    <string name="volume_down">调低音量</string>
+    <string name="channel_up">下一个频道</string>
+    <string name="channel_down">上一个频道</string>
+    <string name="up">上</string>
+    <string name="down">下</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="back">返回</string>
+    <string name="menu">菜单</string>
+    <string name="exit">退出</string>
+    <string name="red_button">红色按钮</string>
+    <string name="green_button">绿色按钮</string>
+    <string name="yellow_button">黄色按钮</string>
+    <string name="blue_button">蓝色按钮</string>
+    <string name="numbers">数字</string>
+    <string name="more">更多</string>
+    <string name="rewind">快退</string>
+    <string name="play">播放</string>
+    <string name="pause">暂停</string>
+    <string name="stop">停止</string>
+    <string name="fast_forward">快进</string>
+</resources>

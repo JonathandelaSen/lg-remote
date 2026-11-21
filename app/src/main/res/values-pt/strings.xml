@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">Este dispositivo não tem emissor de infravermelho, por isso os botões não farão nada.</string>
+    <string name="power">Ligar ou desligar</string>
+    <string name="mute">Silenciar</string>
+    <string name="volume_up">Aumentar volume</string>
+    <string name="volume_down">Diminuir volume</string>
+    <string name="channel_up">Próximo canal</string>
+    <string name="channel_down">Canal anterior</string>
+    <string name="up">Cima</string>
+    <string name="down">Baixo</string>
+    <string name="left">Esquerda</string>
+    <string name="right">Direita</string>
+    <string name="back">Voltar</string>
+    <string name="menu">Menu</string>
+    <string name="exit">Sair</string>
+    <string name="red_button">Botão vermelho</string>
+    <string name="green_button">Botão verde</string>
+    <string name="yellow_button">Botão amarelo</string>
+    <string name="blue_button">Botão azul</string>
+    <string name="numbers">Números</string>
+    <string name="more">Mais</string>
+    <string name="rewind">Retroceder</string>
+    <string name="play">Reproduzir</string>
+    <string name="pause">Pausar</string>
+    <string name="stop">Parar</string>
+    <string name="fast_forward">Avançar</string>
+</resources>

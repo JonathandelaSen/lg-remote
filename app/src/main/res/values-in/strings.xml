@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">Ponsel ini tidak punya pemancar inframerah, jadi tombol tidak akan berfungsi.</string>
+    <string name="power">Nyalakan atau matikan</string>
+    <string name="mute">Bisukan</string>
+    <string name="volume_up">Naikkan volume</string>
+    <string name="volume_down">Turunkan volume</string>
+    <string name="channel_up">Saluran berikutnya</string>
+    <string name="channel_down">Saluran sebelumnya</string>
+    <string name="up">Atas</string>
+    <string name="down">Bawah</string>
+    <string name="left">Kiri</string>
+    <string name="right">Kanan</string>
+    <string name="back">Kembali</string>
+    <string name="menu">Menu</string>
+    <string name="exit">Keluar</string>
+    <string name="red_button">Tombol merah</string>
+    <string name="green_button">Tombol hijau</string>
+    <string name="yellow_button">Tombol kuning</string>
+    <string name="blue_button">Tombol biru</string>
+    <string name="numbers">Angka</string>
+    <string name="more">Lainnya</string>
+    <string name="rewind">Mundur</string>
+    <string name="play">Putar</string>
+    <string name="pause">Jeda</string>
+    <string name="stop">Berhenti</string>
+    <string name="fast_forward">Maju cepat</string>
+</resources>

@@ -1,4 +1,4 @@
-package es.mandotele
+package io.github.jonathandelasen.remoto
 
 import android.graphics.Color
 import android.os.Bundle
@@ -8,9 +8,9 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
-import es.mandotele.ir.IrRemote
-import es.mandotele.ui.Palette
-import es.mandotele.ui.RemoteScreen
+import io.github.jonathandelasen.remoto.ir.IrRemote
+import io.github.jonathandelasen.remoto.ui.Palette
+import io.github.jonathandelasen.remoto.ui.RemoteScreen
 
 class MainActivity : ComponentActivity() {
     private lateinit var remote: IrRemote
@@ -22,9 +22,11 @@ class MainActivity : ComponentActivity() {
             navigationBarStyle = SystemBarStyle.dark(Color.TRANSPARENT),
         )
         remote = IrRemote(this)
+        // Para las capturas del README: el emulador no tiene infrarrojos y saldría el aviso.
+        val screenshotMode = BuildConfig.DEBUG && intent.getBooleanExtra(EXTRA_SCREENSHOT, false)
         setContent {
             MaterialTheme(colorScheme = darkColorScheme(background = Palette.Background, surface = Palette.Background)) {
-                RemoteScreen(irAvailable = remote.available, onKey = remote::send)
+                RemoteScreen(irAvailable = remote.available || screenshotMode, onKey = remote::send)
             }
         }
     }
@@ -32,5 +34,9 @@ class MainActivity : ComponentActivity() {
     override fun onDestroy() {
         remote.close()
         super.onDestroy()
+    }
+
+    private companion object {
+        const val EXTRA_SCREENSHOT = "screenshot"
     }
 }

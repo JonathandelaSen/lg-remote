@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_ir_emitter">Este móvil no tiene emisor de infrarrojos: los botones no harán nada.</string>
+
+    <string name="power">Encender o apagar</string>
+    <string name="mute">Silencio</string>
+    <string name="volume_up">Subir volumen</string>
+    <string name="volume_down">Bajar volumen</string>
+    <string name="channel_up">Canal siguiente</string>
+    <string name="channel_down">Canal anterior</string>
+
+    <string name="up">Arriba</string>
+    <string name="down">Abajo</string>
+    <string name="left">Izquierda</string>
+    <string name="right">Derecha</string>
+
+    <string name="back">Atrás</string>
+    <string name="menu">Menú</string>
+    <string name="exit">Salir</string>
+
+    <string name="red_button">Botón rojo</string>
+    <string name="green_button">Botón verde</string>
+    <string name="yellow_button">Botón amarillo</string>
+    <string name="blue_button">Botón azul</string>
+
+    <string name="numbers">Números</string>
+    <string name="more">Más</string>
+
+    <string name="rewind">Rebobinar</string>
+    <string name="play">Reproducir</string>
+    <string name="pause">Pausa</string>
+    <string name="stop">Parar</string>
+    <string name="fast_forward">Avanzar</string>
+</resources>

@@ -1,4 +1,4 @@
-package es.mandotele.ui
+package io.github.jonathandelasen.remoto.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -29,11 +29,13 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.RectangleShape
 import androidx.compose.ui.graphics.vector.ImageVector
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import es.mandotele.ir.LgKey
+import io.github.jonathandelasen.remoto.R
+import io.github.jonathandelasen.remoto.ir.LgKey
 
 private typealias OnKey = (LgKey, Boolean) -> Unit
 
@@ -60,9 +62,9 @@ fun RemoteScreen(irAvailable: Boolean, onKey: OnKey) {
             TopRow(onKey)
             Cluster(onKey)
             Row(horizontalArrangement = Arrangement.spacedBy(Gap)) {
-                IconTextKey("Atrás", RemoteIcons.Back, LgKey.BACK, onKey)
-                IconTextKey("Menú", RemoteIcons.Home, LgKey.MENU, onKey)
-                IconTextKey("Salir", RemoteIcons.Exit, LgKey.EXIT, onKey)
+                IconTextKey(stringResource(R.string.back), RemoteIcons.Back, LgKey.BACK, onKey)
+                IconTextKey(stringResource(R.string.menu), RemoteIcons.Home, LgKey.MENU, onKey)
+                IconTextKey(stringResource(R.string.exit), RemoteIcons.Exit, LgKey.EXIT, onKey)
             }
             Row(horizontalArrangement = Arrangement.spacedBy(Gap)) {
                 TextKey("Q.MENU", LgKey.Q_MENU, onKey)
@@ -71,10 +73,10 @@ fun RemoteScreen(irAvailable: Boolean, onKey: OnKey) {
             }
             ColorRow(onKey)
 
-            SectionTitle("Números")
+            SectionTitle(stringResource(R.string.numbers))
             NumberPad(onKey)
 
-            SectionTitle("Más")
+            SectionTitle(stringResource(R.string.more))
             Row(horizontalArrangement = Arrangement.spacedBy(Gap)) {
                 TextKey("FAV", LgKey.FAV, onKey)
                 TextKey("RATIO", LgKey.RATIO, onKey)
@@ -86,11 +88,11 @@ fun RemoteScreen(irAvailable: Boolean, onKey: OnKey) {
                 TextKey("TEXT", LgKey.TEXT, onKey)
             }
             Row(horizontalArrangement = Arrangement.spacedBy(Gap)) {
-                IconKey("Rebobinar", RemoteIcons.Rewind, LgKey.REWIND, onKey)
-                IconKey("Reproducir", RemoteIcons.Play, LgKey.PLAY, onKey)
-                IconKey("Pausa", RemoteIcons.Pause, LgKey.PAUSE, onKey)
-                IconKey("Parar", RemoteIcons.Stop, LgKey.STOP, onKey)
-                IconKey("Avanzar", RemoteIcons.FastForward, LgKey.FAST_FORWARD, onKey)
+                IconKey(stringResource(R.string.rewind), RemoteIcons.Rewind, LgKey.REWIND, onKey)
+                IconKey(stringResource(R.string.play), RemoteIcons.Play, LgKey.PLAY, onKey)
+                IconKey(stringResource(R.string.pause), RemoteIcons.Pause, LgKey.PAUSE, onKey)
+                IconKey(stringResource(R.string.stop), RemoteIcons.Stop, LgKey.STOP, onKey)
+                IconKey(stringResource(R.string.fast_forward), RemoteIcons.FastForward, LgKey.FAST_FORWARD, onKey)
             }
         }
     }
@@ -99,7 +101,7 @@ fun RemoteScreen(irAvailable: Boolean, onKey: OnKey) {
 @Composable
 private fun NoIrBanner() {
     Text(
-        text = "Este móvil no tiene emisor de infrarrojos: los botones no harán nada.",
+        text = stringResource(R.string.no_ir_emitter),
         color = Palette.OnKey,
         fontSize = 14.sp,
         modifier = Modifier
@@ -117,7 +119,7 @@ private fun TopRow(onKey: OnKey) {
         verticalAlignment = Alignment.CenterVertically,
     ) {
         RemoteButton(
-            description = "Encender o apagar",
+            description = stringResource(R.string.power),
             onPress = { onKey(LgKey.POWER, it) },
             shape = CircleShape,
             color = Palette.Power,
@@ -126,7 +128,7 @@ private fun TopRow(onKey: OnKey) {
         IconTextKey("INPUT", RemoteIcons.Input, LgKey.INPUT, onKey, height = 60.dp)
         TextKey("TV/RAD", LgKey.TV_RADIO, onKey, height = 60.dp)
         RemoteButton(
-            description = "Silencio",
+            description = stringResource(R.string.mute),
             onPress = { onKey(LgKey.MUTE, it) },
             shape = CircleShape,
             modifier = Modifier.size(60.dp),
@@ -144,9 +146,19 @@ private fun Cluster(onKey: OnKey) {
             verticalAlignment = Alignment.CenterVertically,
             modifier = Modifier.fillMaxWidth(),
         ) {
-            Rocker("VOL", padSize, LgKey.VOL_UP, "Subir volumen", RemoteIcons.Plus, LgKey.VOL_DOWN, "Bajar volumen", RemoteIcons.Minus, onKey)
+            Rocker(
+                "VOL", padSize,
+                LgKey.VOL_UP, stringResource(R.string.volume_up), RemoteIcons.Plus,
+                LgKey.VOL_DOWN, stringResource(R.string.volume_down), RemoteIcons.Minus,
+                onKey,
+            )
             DPad(padSize, onKey)
-            Rocker("P", padSize, LgKey.CH_UP, "Canal siguiente", RemoteIcons.Up, LgKey.CH_DOWN, "Canal anterior", RemoteIcons.Down, onKey)
+            Rocker(
+                "P", padSize,
+                LgKey.CH_UP, stringResource(R.string.channel_up), RemoteIcons.Up,
+                LgKey.CH_DOWN, stringResource(R.string.channel_down), RemoteIcons.Down,
+                onKey,
+            )
         }
     }
 }
@@ -199,7 +211,12 @@ private fun DPad(size: Dp, onKey: OnKey) {
             Triple(LgKey.LEFT, RemoteIcons.Left, Alignment.CenterStart),
             Triple(LgKey.RIGHT, RemoteIcons.Right, Alignment.CenterEnd),
         )
-        val names = mapOf(LgKey.UP to "Arriba", LgKey.DOWN to "Abajo", LgKey.LEFT to "Izquierda", LgKey.RIGHT to "Derecha")
+        val names = mapOf(
+            LgKey.UP to stringResource(R.string.up),
+            LgKey.DOWN to stringResource(R.string.down),
+            LgKey.LEFT to stringResource(R.string.left),
+            LgKey.RIGHT to stringResource(R.string.right),
+        )
         for ((key, icon, alignment) in arrows) {
             RemoteButton(
                 description = names.getValue(key),
@@ -224,14 +241,14 @@ private fun DPad(size: Dp, onKey: OnKey) {
 private fun ColorRow(onKey: OnKey) {
     Row(horizontalArrangement = Arrangement.spacedBy(Gap)) {
         val colors = listOf(
-            Triple(LgKey.RED, Palette.Red, "Rojo"),
-            Triple(LgKey.GREEN, Palette.Green, "Verde"),
-            Triple(LgKey.YELLOW, Palette.Yellow, "Amarillo"),
-            Triple(LgKey.BLUE, Palette.Blue, "Azul"),
+            Triple(LgKey.RED, Palette.Red, stringResource(R.string.red_button)),
+            Triple(LgKey.GREEN, Palette.Green, stringResource(R.string.green_button)),
+            Triple(LgKey.YELLOW, Palette.Yellow, stringResource(R.string.yellow_button)),
+            Triple(LgKey.BLUE, Palette.Blue, stringResource(R.string.blue_button)),
         )
         for ((key, color, name) in colors) {
             RemoteButton(
-                description = "Botón $name",
+                description = name,
                 onPress = { onKey(key, it) },
                 color = color,
                 shape = RoundedCornerShape(10.dp),

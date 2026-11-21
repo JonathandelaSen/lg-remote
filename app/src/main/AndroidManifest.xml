@@ -2,9 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.TRANSMIT_IR" />
+    <!-- Sin emisor de infrarrojos la app no sirve: las tiendas no la ofrecen a esos móviles. -->
     <uses-feature
         android:name="android.hardware.consumerir"
-        android:required="false" />
+        android:required="true" />
 
     <application
         android:allowBackup="true"

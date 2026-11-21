@@ -1,4 +1,4 @@
-package es.mandotele.ir
+package io.github.jonathandelasen.remoto.ir
 
 import java.util.concurrent.Executor
 import java.util.concurrent.atomic.AtomicInteger

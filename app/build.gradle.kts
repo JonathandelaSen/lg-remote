@@ -1,18 +1,38 @@
+import java.util.Properties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.plugin.compose")
 }
 
+// Clave de firma de las versiones publicadas: keystore.properties + release.jks en la raíz,
+// los dos fuera de git. Sin ellos (p. ej. al clonar el repo) se firma con la clave de depuración.
+val keystoreProps = Properties().apply {
+    val file = rootProject.file("keystore.properties")
+    if (file.exists()) file.inputStream().use(::load)
+}
+
 android {
-    namespace = "es.mandotele"
+    namespace = "io.github.jonathandelasen.remoto"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "es.mandotele"
+        applicationId = "io.github.jonathandelasen.remoto"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
+    }
+
+    signingConfigs {
+        if (!keystoreProps.isEmpty) {
+            create("release") {
+                storeFile = rootProject.file(keystoreProps.getProperty("storeFile"))
+                storePassword = keystoreProps.getProperty("storePassword")
+                keyAlias = keystoreProps.getProperty("keyAlias")
+                keyPassword = keystoreProps.getProperty("keyPassword")
+            }
+        }
     }
 
     buildTypes {
@@ -20,8 +40,7 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"))
-            // App personal: se firma con la clave de depuración del Mac para instalar el APK a mano.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.findByName("release") ?: signingConfigs.getByName("debug")
         }
     }
 
@@ -30,8 +49,14 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
+    androidResources {
+        // Permite elegir el idioma de la app en los ajustes de Android 13+.
+        generateLocaleConfig = true
+    }
+
     buildFeatures {
         compose = true
+        buildConfig = true
     }
 }
 

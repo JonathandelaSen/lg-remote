@@ -1,4 +1,4 @@
-package es.mandotele.ir
+package io.github.jonathandelasen.remoto.ir
 
 import android.content.Context
 import android.hardware.ConsumerIrManager

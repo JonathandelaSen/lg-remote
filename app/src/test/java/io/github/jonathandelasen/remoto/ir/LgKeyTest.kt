@@ -1,4 +1,4 @@
-package es.mandotele.ir
+package io.github.jonathandelasen.remoto.ir
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
@@ -28,6 +28,11 @@ class LgKeyTest {
         LgKey.NUM_1 to 0x20DF8877L,
         LgKey.NUM_2 to 0x20DF48B7L,
         LgKey.NUM_3 to 0x20DFC837L,
+        LgKey.NUM_4 to 0x20DF28D7L,
+        LgKey.NUM_5 to 0x20DFA857L,
+        LgKey.NUM_6 to 0x20DF6897L,
+        LgKey.NUM_7 to 0x20DFE817L,
+        LgKey.NUM_8 to 0x20DF18E7L,
         LgKey.NUM_9 to 0x20DF9867L,
         LgKey.RED to 0x20DF4EB1L,
         LgKey.GREEN to 0x20DF8E71L,

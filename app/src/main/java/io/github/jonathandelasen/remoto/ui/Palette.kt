@@ -1,4 +1,4 @@
-package es.mandotele.ui
+package io.github.jonathandelasen.remoto.ui
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.ui.graphics.Color

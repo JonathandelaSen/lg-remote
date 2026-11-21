@@ -1,4 +1,4 @@
-package es.mandotele.ui
+package io.github.jonathandelasen.remoto.ui
 
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.SolidColor

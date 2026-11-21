@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Textos por defecto (inglés). La traducción al español está en values-es/strings.xml. -->
+<resources>
+    <string name="app_name" translatable="false">Remoto</string>
+
+    <string name="no_ir_emitter">This phone has no infrared emitter, so the buttons won\'t do anything.</string>
+
+    <string name="power">Power</string>
+    <string name="mute">Mute</string>
+    <string name="volume_up">Volume up</string>
+    <string name="volume_down">Volume down</string>
+    <string name="channel_up">Next channel</string>
+    <string name="channel_down">Previous channel</string>
+
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+
+    <string name="back">Back</string>
+    <string name="menu">Menu</string>
+    <string name="exit">Exit</string>
+
+    <string name="red_button">Red button</string>
+    <string name="green_button">Green button</string>
+    <string name="yellow_button">Yellow button</string>
+    <string name="blue_button">Blue button</string>
+
+    <string name="numbers">Numbers</string>
+    <string name="more">More</string>
+
+    <string name="rewind">Rewind</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="stop">Stop</string>
+    <string name="fast_forward">Fast forward</string>
+</resources>

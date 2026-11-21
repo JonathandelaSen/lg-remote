@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "MandoTele"
+rootProject.name = "Remoto"
 include(":app")

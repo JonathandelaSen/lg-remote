@@ -1,4 +1,4 @@
-package es.mandotele.ui
+package io.github.jonathandelasen.remoto.ui
 
 import android.view.HapticFeedbackConstants
 import androidx.compose.foundation.background

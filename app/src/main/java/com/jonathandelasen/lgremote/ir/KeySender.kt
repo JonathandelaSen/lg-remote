@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto.ir
+package com.jonathandelasen.lgremote.ir
 
 import java.util.concurrent.Executor
 import java.util.concurrent.atomic.AtomicInteger

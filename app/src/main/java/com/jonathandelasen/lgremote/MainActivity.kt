@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto
+package com.jonathandelasen.lgremote
 
 import android.graphics.Color
 import android.os.Bundle
@@ -8,9 +8,9 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
-import io.github.jonathandelasen.remoto.ir.IrRemote
-import io.github.jonathandelasen.remoto.ui.Palette
-import io.github.jonathandelasen.remoto.ui.RemoteScreen
+import com.jonathandelasen.lgremote.ir.IrRemote
+import com.jonathandelasen.lgremote.ui.Palette
+import com.jonathandelasen.lgremote.ui.RemoteScreen
 
 class MainActivity : ComponentActivity() {
     private lateinit var remote: IrRemote

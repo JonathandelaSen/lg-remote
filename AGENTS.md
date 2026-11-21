@@ -20,15 +20,15 @@
 `release.jks` y `keystore.properties` están en la raíz y **fuera de git**. Sin ellos no se pueden
 publicar actualizaciones que se instalen encima de las anteriores: no borrarlos ni moverlos.
 
-Por lo mismo, el `applicationId` (y el paquete) siguen siendo `io.github.jonathandelasen.remoto`, de
-cuando la app se llamaba Remoto: no cambiarlos, o la versión nueva no se instalaría encima.
+Por lo mismo, el `applicationId` es `com.jonathandelasen.lgremote` desde la 2.0 y no se vuelve a cambiar:
+Android trataría la versión nueva como otra app y no se instalaría encima. Lo comprueba `AppIdTest`.
 
 ## Capturas del README (`docs/`)
 
 Con el emulador arrancado, instalar el APK de **debug** y abrirlo con
-`adb shell am start -n io.github.jonathandelasen.remoto/.MainActivity --ez screenshot true`
+`adb shell am start -n com.jonathandelasen.lgremote/.MainActivity --ez screenshot true`
 (oculta el aviso de «sin infrarrojos», que en el emulador siempre sale). El idioma se cambia con
-`adb shell cmd locale set-app-locales io.github.jonathandelasen.remoto --locales es-ES`.
+`adb shell cmd locale set-app-locales com.jonathandelasen.lgremote --locales es-ES`.
 Hay dos por idioma (`screenshot-en.png` / `screenshot-en-more.png` para `README.md`, y las `-es` para
 `README.es.md`); la segunda se saca tras `adb shell input swipe 640 2400 640 500 400`. Todas se reducen
 a 720 px de ancho con `sips --resampleWidth 720`.

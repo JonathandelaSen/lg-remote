@@ -13,15 +13,15 @@ val keystoreProps = Properties().apply {
 }
 
 android {
-    namespace = "io.github.jonathandelasen.remoto"
+    namespace = "com.jonathandelasen.lgremote"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.jonathandelasen.remoto"
+        applicationId = "com.jonathandelasen.lgremote"
         minSdk = 26
         targetSdk = 36
-        versionCode = 3
-        versionName = "1.2"
+        versionCode = 4
+        versionName = "2.0"
     }
 
     signingConfigs {

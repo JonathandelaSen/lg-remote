@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto.ui
+package com.jonathandelasen.lgremote.ui
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -37,8 +37,8 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.LayoutDirection
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import io.github.jonathandelasen.remoto.R
-import io.github.jonathandelasen.remoto.ir.LgKey
+import com.jonathandelasen.lgremote.R
+import com.jonathandelasen.lgremote.ir.LgKey
 
 private typealias OnKey = (LgKey, Boolean) -> Unit
 

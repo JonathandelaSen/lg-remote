@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto.ir
+package com.jonathandelasen.lgremote.ir
 
 import android.content.Context
 import android.hardware.ConsumerIrManager

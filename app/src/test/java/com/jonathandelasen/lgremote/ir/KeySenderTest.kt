@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto.ir
+package com.jonathandelasen.lgremote.ir
 
 import org.junit.Assert.assertArrayEquals
 import org.junit.Assert.assertEquals

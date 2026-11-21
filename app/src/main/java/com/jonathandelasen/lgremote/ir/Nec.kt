@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto.ir
+package com.jonathandelasen.lgremote.ir
 
 /**
  * Protocolo de infrarrojos NEC, el que usan los mandos de LG.

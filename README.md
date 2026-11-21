@@ -83,6 +83,9 @@ have one, the app tells you as soon as you open it. To check before installing, 
 
 New versions install the same way, over the previous one.
 
+> **Installed it before version 2.0?** (when it was called Remoto, or LG Remote 1.2) Uninstall that one first:
+> for Android, 2.0 is a different app, so it won't replace the old one and you'd end up with both.
+
 ## Buttons
 
 <details>

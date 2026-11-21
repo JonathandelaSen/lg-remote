@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto.ir
+package com.jonathandelasen.lgremote.ir
 
 /**
  * Teclas del mando de LG (probado con la 42LW5500). Todas comparten la dirección NEC 0x04;

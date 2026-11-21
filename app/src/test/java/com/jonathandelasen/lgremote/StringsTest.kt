@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto
+package com.jonathandelasen.lgremote
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse

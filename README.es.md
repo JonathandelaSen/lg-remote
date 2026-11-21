@@ -83,6 +83,9 @@ modelo en [GSMArena](https://www.gsmarena.com): si *Infrared port* (en *Comms*) 
 
 Las versiones nuevas se instalan igual, encima de la anterior.
 
+> **¿La instalaste antes de la 2.0?** (cuando se llamaba Remoto, o LG Remote 1.2) Desinstala esa primero:
+> para Android la 2.0 es otra app, así que no sustituye a la vieja y te quedarían las dos.
+
 ## Botones
 
 <details>

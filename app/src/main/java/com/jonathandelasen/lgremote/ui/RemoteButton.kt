@@ -1,4 +1,4 @@
-package io.github.jonathandelasen.remoto.ui
+package com.jonathandelasen.lgremote.ui
 
 import android.view.HapticFeedbackConstants
 import androidx.compose.foundation.background

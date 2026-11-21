@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Remoto"
+rootProject.name = "lg-remote"
 include(":app")

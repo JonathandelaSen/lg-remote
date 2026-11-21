@@ -1,6 +1,6 @@
 # Privacidad · Privacy
 
-**Remoto no recoge, guarda ni envía ningún dato personal ni de uso.**
+**LG Remote no recoge, guarda ni envía ningún dato personal ni de uso.**
 
 - No tiene permiso de internet: no puede conectarse a ningún servidor.
 - No lleva anuncios, analíticas ni librerías de terceros que rastreen.
@@ -9,7 +9,7 @@
 
 ---
 
-**Remoto does not collect, store or send any personal or usage data.**
+**LG Remote does not collect, store or send any personal or usage data.**
 
 - It has no internet permission, so it cannot connect to any server.
 - No ads, no analytics, no third-party tracking libraries.

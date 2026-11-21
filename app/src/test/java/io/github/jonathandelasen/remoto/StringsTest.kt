@@ -75,6 +75,6 @@ class StringsTest {
 
     @Test
     fun `el nombre de la app no se traduce`() {
-        assertEquals(Entry("Remoto", translatable = false), english["app_name"])
+        assertEquals(Entry("LG Remote", translatable = false), english["app_name"])
     }
 }

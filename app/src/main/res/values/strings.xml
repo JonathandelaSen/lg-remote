@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Textos por defecto (inglés). La traducción al español está en values-es/strings.xml. -->
 <resources>
-    <string name="app_name" translatable="false">Remoto</string>
+    <string name="app_name" translatable="false">LG Remote</string>
 
     <string name="no_ir_emitter">This phone has no infrared emitter, so the buttons won\'t do anything.</string>
 

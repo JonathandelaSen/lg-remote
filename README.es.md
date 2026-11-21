@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/icon.png" width="96" alt="Icono de Remoto">
+  <img src="docs/icon.png" width="96" alt="Icono de LG Remote">
 </p>
 
-<h1 align="center">Remoto</h1>
+<h1 align="center">LG Remote</h1>
 
 <p align="center">
   <b>Mando a distancia por infrarrojos para teles LG. Sin anuncios, sin internet, sin cuentas.</b><br>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JonathandelaSen/remoto/releases/latest/download/Remoto.apk"><b>⬇ Descargar APK</b></a>
+  <a href="https://github.com/JonathandelaSen/lg-remote/releases/latest/download/LG-Remote.apk"><b>⬇ Descargar APK</b></a>
   &nbsp;·&nbsp; Android 8.0+ &nbsp;·&nbsp; &lt; 1 MB &nbsp;·&nbsp; GPL-3.0
 </p>
 
@@ -22,7 +22,7 @@
 
 ## Por qué
 
-Las apps de mando para teles LG que hay en las tiendas están llenas de publicidad. Remoto hace lo mismo
+Las apps de mando para teles LG que hay en las tiendas están llenas de publicidad. LG Remote hace lo mismo
 con el emisor de infrarrojos del móvil, sin anuncios. No tiene permiso de internet, así que no puede
 enviar nada a ningún sitio.
 
@@ -31,7 +31,7 @@ enviar nada a ningún sitio.
 - **Vibra al pulsar**, tema oscuro y pensado para usarse con una mano.
 - **En 12 idiomas:** español, inglés, chino, hindi, árabe, portugués, francés, ruso, alemán, japonés,
   indonesio e italiano. Sale en el idioma del móvil, y en Android 13+ se puede cambiar solo para esta app.
-  ¿Una traducción mejorable? [Abre un issue](https://github.com/JonathandelaSen/remoto/issues/new).
+  ¿Una traducción mejorable? [Abre un issue](https://github.com/JonathandelaSen/lg-remote/issues/new).
 
 ## Compatibilidad
 
@@ -45,14 +45,14 @@ enviar nada a ningún sitio.
 | Proyectores, barras de sonido y otros aparatos LG | ❌ Usan otros códigos |
 | Otras marcas | ❌ Por ahora no |
 
-¿La has probado en otra LG? [Cuéntalo en un issue](https://github.com/JonathandelaSen/remoto/issues/new)
+¿La has probado en otra LG? [Cuéntalo en un issue](https://github.com/JonathandelaSen/lg-remote/issues/new)
 con el modelo (está en la pegatina de atrás) y qué botones van, y se añade a la tabla.
 
 ### Móviles
 
 Hace falta un móvil con **emisor de infrarrojos**: una ventanita oscura en el borde de arriba.
 Si el tuyo no lo tiene, la app te avisa nada más abrirla. Para saberlo antes de instalar, busca tu
-modelo en [GSMArena](https://www.gsmarena.com): si *Infrared port* (en *Comms*) dice **Yes**, Remoto funciona.
+modelo en [GSMArena](https://www.gsmarena.com): si *Infrared port* (en *Comms*) dice **Yes**, LG Remote funciona.
 
 | Marca | ¿Tiene infrarrojos? | Por ejemplo |
 |---|---|---|
@@ -67,16 +67,16 @@ modelo en [GSMArena](https://www.gsmarena.com): si *Infrared port* (en *Comms*) 
 | Samsung | ❌ Desde 2016 no | Los últimos, Galaxy S6 y Note 4, se quedaron en Android 7 o anterior |
 | Google Pixel | ❌ Nunca | |
 | Motorola, Sony, Nothing | ❌ En los modelos actuales no | |
-| iPhone | ❌ Nunca | Y Remoto es solo para Android |
+| iPhone | ❌ Nunca | Y LG Remote es solo para Android |
 
 - **Móviles antiguos con infrarrojos** (Samsung Galaxy S4–S6 y Note 3–4, LG G3–G4, HTC One M7–M9): nunca
-  llegaron a Android 8.0, así que Remoto no se instala en ellos.
+  llegaron a Android 8.0, así que LG Remote no se instala en ellos.
 - **Los emisores de infrarrojos por USB-C** tampoco valen: no pasan por el sistema de infrarrojos de
   Android y cada uno funciona con su propia app.
 
 ## Instalar
 
-1. Descarga [**Remoto.apk**](https://github.com/JonathandelaSen/remoto/releases/latest/download/Remoto.apk) desde el móvil.
+1. Descarga [**LG-Remote.apk**](https://github.com/JonathandelaSen/lg-remote/releases/latest/download/LG-Remote.apk) desde el móvil.
 2. Ábrelo. Android te pedirá permiso para instalar apps desde el navegador: acéptalo.
 3. Es normal que **Play Protect** diga «Aplicación bloqueada para proteger tu dispositivo», porque no
    viene de Play Store. Pulsa **«Instalar de todas formas»**.
@@ -144,7 +144,7 @@ el formato de 32 bits de las tablas públicas de mandos (LIRC, Arduino).
 
 ## Privacidad
 
-Remoto no recoge, guarda ni envía ningún dato. No tiene permiso de internet: solo usa el emisor de
+LG Remote no recoge, guarda ni envía ningún dato. No tiene permiso de internet: solo usa el emisor de
 infrarrojos. Detalle en [PRIVACY.md](PRIVACY.md).
 
 ## Compilar
@@ -169,3 +169,5 @@ instalar encima de la versión publicada aquí.
 
 [GPL-3.0](LICENSE). Puedes usarlo, cambiarlo y redistribuirlo, pero cualquier versión que publiques
 tiene que seguir siendo libre y con su código abierto.
+
+LG es una marca de LG Electronics. LG Remote es un proyecto independiente, sin relación con LG.

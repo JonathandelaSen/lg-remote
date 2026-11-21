@@ -20,6 +20,9 @@
 `release.jks` y `keystore.properties` están en la raíz y **fuera de git**. Sin ellos no se pueden
 publicar actualizaciones que se instalen encima de las anteriores: no borrarlos ni moverlos.
 
+Por lo mismo, el `applicationId` (y el paquete) siguen siendo `io.github.jonathandelasen.remoto`, de
+cuando la app se llamaba Remoto: no cambiarlos, o la versión nueva no se instalaría encima.
+
 ## Capturas del README (`docs/`)
 
 Con el emulador arrancado, instalar el APK de **debug** y abrirlo con
@@ -34,6 +37,6 @@ a 720 px de ancho con `sips --resampleWidth 720`.
 
 1. Subir `versionCode` y `versionName` en `app/build.gradle.kts`.
 2. `./gradlew testDebugUnitTest assembleRelease`
-3. Copiar `app/build/outputs/apk/release/app-release.apk` como `Remoto.apk` (el README enlaza a
-   `releases/latest/download/Remoto.apk`, así que el nombre no puede cambiar).
-4. `gh release create vX.Y Remoto.apk --title "Remoto X.Y" --notes "…"`
+3. Copiar `app/build/outputs/apk/release/app-release.apk` como `LG-Remote.apk` (el README enlaza a
+   `releases/latest/download/LG-Remote.apk`, así que el nombre no puede cambiar).
+4. `gh release create vX.Y LG-Remote.apk --title "LG Remote X.Y" --notes "…"`

@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="docs/icon.png" width="96" alt="Remoto icon">
+  <img src="docs/icon.png" width="96" alt="LG Remote icon">
 </p>
 
-<h1 align="center">Remoto</h1>
+<h1 align="center">LG Remote</h1>
 
 <p align="center">
   <b>Infrared remote control for LG TVs. No ads, no internet, no accounts.</b><br>
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JonathandelaSen/remoto/releases/latest/download/Remoto.apk"><b>⬇ Download APK</b></a>
+  <a href="https://github.com/JonathandelaSen/lg-remote/releases/latest/download/LG-Remote.apk"><b>⬇ Download APK</b></a>
   &nbsp;·&nbsp; Android 8.0+ &nbsp;·&nbsp; &lt; 1 MB &nbsp;·&nbsp; GPL-3.0
 </p>
 
@@ -22,7 +22,7 @@
 
 ## Why
 
-The LG remote apps in the stores are full of ads. Remoto does the same job with your phone's infrared
+The remote apps for LG TVs in the stores are full of ads. LG Remote does the same job with your phone's infrared
 blaster, without ads. It has no internet permission, so it can't send anything anywhere.
 
 - **The whole remote:** power, volume, channels, d-pad, numbers, colour buttons, menus and playback.
@@ -31,7 +31,7 @@ blaster, without ads. It has no internet permission, so it can't send anything a
 - **12 languages:** English, Spanish, Chinese, Hindi, Arabic, Portuguese, French, Russian, German,
   Japanese, Indonesian and Italian. It follows your phone's language, and on Android 13+ you can pick
   another one just for this app. Spotted a clumsy translation?
-  [Open an issue](https://github.com/JonathandelaSen/remoto/issues/new).
+  [Open an issue](https://github.com/JonathandelaSen/lg-remote/issues/new).
 
 ## Compatibility
 
@@ -45,14 +45,14 @@ blaster, without ads. It has no internet permission, so it can't send anything a
 | LG projectors, soundbars and other LG devices | ❌ They use other codes |
 | Other brands | ❌ Not yet |
 
-Tried it on another LG? [Tell us in an issue](https://github.com/JonathandelaSen/remoto/issues/new)
+Tried it on another LG? [Tell us in an issue](https://github.com/JonathandelaSen/lg-remote/issues/new)
 with the model (it's on the sticker on the back) and which buttons work, and it goes into the table.
 
 ### Phones
 
 You need a phone with an **infrared blaster**: a small dark window on the top edge. If yours doesn't
 have one, the app tells you as soon as you open it. To check before installing, look your model up on
-[GSMArena](https://www.gsmarena.com): if *Infrared port* (under *Comms*) says **Yes**, Remoto works.
+[GSMArena](https://www.gsmarena.com): if *Infrared port* (under *Comms*) says **Yes**, LG Remote works.
 
 | Brand | Infrared? | For example |
 |---|---|---|
@@ -67,16 +67,16 @@ have one, the app tells you as soon as you open it. To check before installing, 
 | Samsung | ❌ Not since 2016 | The last ones, Galaxy S6 and Note 4, stay on Android 7 or older |
 | Google Pixel | ❌ Never | |
 | Motorola, Sony, Nothing | ❌ Not in current models | |
-| iPhone | ❌ Never | And Remoto is Android only |
+| iPhone | ❌ Never | And LG Remote is Android only |
 
 - **Older phones with infrared** (Samsung Galaxy S4–S6 and Note 3–4, LG G3–G4, HTC One M7–M9) never got
-  Android 8.0, so Remoto won't install on them.
+  Android 8.0, so LG Remote won't install on them.
 - **USB-C infrared dongles** don't work either: they don't go through Android's infrared system, and each
   one needs its own app.
 
 ## Install
 
-1. Download [**Remoto.apk**](https://github.com/JonathandelaSen/remoto/releases/latest/download/Remoto.apk) on your phone.
+1. Download [**LG-Remote.apk**](https://github.com/JonathandelaSen/lg-remote/releases/latest/download/LG-Remote.apk) on your phone.
 2. Open it. Android will ask you to allow installing apps from your browser: allow it.
 3. **Play Protect** will probably say "App blocked to protect your device", because the app doesn't come
    from the Play Store. Tap **"Install anyway"**.
@@ -144,7 +144,7 @@ format used in public remote tables (LIRC, Arduino).
 
 ## Privacy
 
-Remoto doesn't collect, store or send any data. It has no internet permission: it only uses the
+LG Remote doesn't collect, store or send any data. It has no internet permission: it only uses the
 infrared blaster. Details in [PRIVACY.md](PRIVACY.md).
 
 ## Build
@@ -169,3 +169,6 @@ installed over the version published here.
 
 [GPL-3.0](LICENSE). You can use, change and redistribute it, but any version you publish has to stay
 free and open source.
+
+LG is a trademark of LG Electronics. LG Remote is an independent project, not made by or affiliated
+with LG.
